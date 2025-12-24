@@ -687,8 +687,24 @@ footer{
     border: 4px solid #b80e0e;
     width: 100%;
     height: 49%;
-    border-radius: 23px;
-    border-bottom: none;
-    border-top: none;
 }
+
+.reviewContainer {
+    width: 100%;
+    height: 78%;
+    margin: auto;
+    margin-top: 3%;
+    grid-template-columns: repeat(1, 83%);
+    justify-content: center;
+}
+
+.section6 {
+    height: 120vh;
+}
+
+.showMore {
+    width: 28%;
+    margin-top: 5%;
+    padding: 2%;
+    }
 }
