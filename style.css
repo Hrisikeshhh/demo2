@@ -583,26 +583,26 @@ footer{
 }
 
 .hero {
-    width: 59%;
+    width: 79%;
     margin: 47% 6%;
     font-family: "Ubuntu", sans-serif;
 }
 
 .heroPromise
 {
-        margin-top: 5%;
-        font-size: 70%;
+        margin-top: 9%;
+        font-size: 89%;
 }
 
 .COA {
-    font-size: 120%;
+    font-size: 150%;
     color: #970404;
 }
 
 .call-out-headlines {
-    margin-top: 5%;
-    font-size: 96%;
+    font-size: 119%;
     color: #bf1616;
+    width: 62%;
 }
 
 .section1 {
