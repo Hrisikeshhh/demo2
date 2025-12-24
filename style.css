@@ -678,4 +678,17 @@ footer{
     width: 90%;
     font-size: 72%;
 }
+
+.container3{
+    flex-direction: column;
+}
+
+.comparisonBox {
+    border: 4px solid #b80e0e;
+    width: 100%;
+    height: 49%;
+    border-radius: 23px;
+    border-bottom: none;
+    border-top: none;
+}
 }
