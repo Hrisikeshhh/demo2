@@ -631,8 +631,9 @@ footer{
     font-size: 75%;
 }
 
-.belief-break {
-    margin-top: 60%;
-}
+   .belief-break {
+        margin-top: 57%;
+        font-size: 161%;
+    }
 
 }
