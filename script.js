@@ -135,6 +135,11 @@ navReviews.addEventListener('click',()=>{
     div.style.height = "70vh";
     div.style.borderRadius = "15px"
     div.style.backgroundColor = "#f7e7deff";
+
+    if(window.matchMedia('(max-width:800px)').matches)
+    {
+          div.style.height = "80%";
+    }
     
     
     }, 500)

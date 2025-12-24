@@ -728,4 +728,25 @@ footer{
 footer {
     font-size: 100%;
 }
+
+.imvisibleBox {
+    height: 82%;
+    width: 88%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    gap: 33px;
+    justify-content: center;
+}
+
+#review {
+
+    top: 662vh;
+}
+
+#cross {
+    border: 1px solid;
+    width: 26%;
+    height: 5%;
+    margin-top: 25%;
+}
 }
