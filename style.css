@@ -37,7 +37,7 @@ nav{
 }
 
 .rightNav{
-    width: 60%;
+    width: 50%;
     height: 100%;
     font-size: 85%;
     display: flex;
@@ -540,19 +540,77 @@ footer{
     font-family: "Ubuntu", sans-serif;
 }
 
+#close{
+    display: none;
+}
+
+#menu{
+    display: none;
+}
 
 @media(max-width:800px)
 {
+
+    .logo{
+        width: 70%;
+    }
+
+    #close {
+        display: inline-block;
+        font-size: 197%;
+        margin-left: 68%;
+    }
+
+    #menu{
+    display: inline-block;
+    font-size: 150%;
+    margin: 4%;
+    }
+
     .listItems {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
     flex-direction: column;
+    right:100%;
     position: fixed;
     width: 100vw;
     height: 41vh;
     background-color: #ece3cc;
     top: 0;
 }
+
+.hero {
+    width: 50%;
+    margin: 34% 9%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.heroPromise {
+    margin-top: 5%;
+    font-size: 67%;
+}
+
+.COA {
+    font-size: 106%;
+    color: #970404;
+}
+
+.call-out-headlines {
+    margin-top: 5%;
+    font-size: 85%;
+    color: #bf1616;
+}
+
+.section1 {
+    background-position: 53%;
+}
+
+#heroBtn {
+    padding: 4%;
+    font-size: 100%;
+    margin: 14% 16%;
+}
+
 }

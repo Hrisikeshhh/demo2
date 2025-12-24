@@ -242,3 +242,30 @@ desktop.add('(min-width:800px)',()=>{
     }
   })
 })
+
+
+let mobile = gsap.matchMedia();
+mobile.add('(max-width:800px)',()=>{
+      let tl2 = gsap.timeline();
+      let menu = document.querySelector('#menu');
+      let close = document.querySelector('#close');
+
+      tl2.to('.listItems',{
+          x:'100vw',
+          duration:0.3
+      })
+      tl2.from('.item',{
+          x:20,
+          stagger:0.3,
+          opacity:0
+      })
+
+      tl2.pause();
+
+      menu.addEventListener('click',()=>{
+        tl2.play();
+      })
+      close.addEventListener('click',()=>{
+        tl2.reverse();
+      })
+})
