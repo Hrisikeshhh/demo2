@@ -608,6 +608,10 @@ footer{
     background-position: 53%;
 }
 
+.heroBullet {
+    margin-top: 1.5%;
+}
+
 #heroBtn {
     padding: 4%;
     font-size: 100%;
