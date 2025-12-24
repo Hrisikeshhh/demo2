@@ -565,6 +565,7 @@ footer{
     display: inline-block;
     font-size: 150%;
     margin: 4%;
+    margin-top: 7%;
     }
 
     .listItems {
@@ -616,6 +617,22 @@ footer{
     padding: 4%;
     font-size: 100%;
     margin: 14% 16%;
+}
+
+.container {
+    height: 79%;
+    width: 90%;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 20px;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #fbf6f3;
+    display: flex;
+    font-size: 75%;
+}
+
+.belief-break {
+    margin-top: 60%;
 }
 
 }
