@@ -724,4 +724,8 @@ footer{
     font-size: 221%;
     color: #970404;
 }
+
+footer {
+    font-size: 100%;
+}
 }
