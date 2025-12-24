@@ -620,14 +620,7 @@ footer{
 }
 
 .container {
-    height: 79%;
-    width: 90%;
-    margin: auto;
-    margin-top: 7%;
-    border-radius: 20px;
-    font-family: "Ubuntu", sans-serif;
-    background-color: #fbf6f3;
-    display: flex;
+    flex-direction: column;
     font-size: 75%;
 }
 
@@ -635,5 +628,14 @@ footer{
         margin-top: 57%;
         font-size: 161%;
     }
+
+.benefits-bullet {
+    margin: 8% 5%;
+    width: 80%;
+}
+
+.stat-points {
+    width: 100%;
+}
 
 }
