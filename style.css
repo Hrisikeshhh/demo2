@@ -650,4 +650,32 @@ footer{
     width: 100%;
 
 }
+
+.container2 {
+    height: 27%;
+    width: 90%;
+    flex-direction: column-reverse;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 20px;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #fbf6f3;
+    display: flex;
+}
+
+.rightFlavor {
+    width: 50%;
+    height: 62%;
+    margin-top: 5%;
+    margin-left: 22%;
+    border-radius: 14px;
+}
+
+.leftFlavor {
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    font-size: 72%;
+}
 }
