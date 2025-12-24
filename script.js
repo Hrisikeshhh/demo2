@@ -276,4 +276,98 @@ mobile.add('(max-width:800px)',()=>{
       close.addEventListener('click',()=>{
         tl2.reverse();
       })
+
+      let tl3 = gsap.timeline();
+
+  tl3.from('.A',{
+    y:50,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+      scroller:'body',
+      trigger:'.A',
+      scrub:2,
+      start:'top 95%',
+      end:'top 80%'
+    }
+  })
+
+  tl3.from('.a',{
+    y:50,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+      scroller:'body',
+      trigger:'.a',
+      scrub:2,
+      start:'top 95%',
+      end:'top 80%'
+    }
+  })
+
+  tl3.from('.B',{
+    y:50,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+      scroller:'body',
+      trigger:'.B',
+      scrub:2,
+      start:'top 95%',
+      end:'top 80%'
+    }
+  })
+
+  
+  tl3.from('.b',{
+    y:50,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+      scroller:'body',
+      trigger:'.b',
+      scrub:2,
+     start:'top 95%',
+      end:'top 80%'
+    }
+  })
+
+  tl3.from('.C',{
+    y:50,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+      scroller:'body',
+      trigger:'.C',
+      scrub:2,
+     start:'top 95%',
+      end:'top 80%'
+    }
+  })
+
+  tl3.from('.c',{
+    y:50,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+      scroller:'body',
+      trigger:'.c',
+      scrub:2,
+      start:'top 95%',
+      end:'top 80%'
+    }
+  })
+
+  tl3.from('.D',{
+    y:50,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+      scroller:'body',
+      trigger:'.D',
+      scrub:2,
+     start:'top 95%',
+      end:'top 80%'
+    }
+  })
 })
